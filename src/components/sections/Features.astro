@@ -1,0 +1,41 @@
+---
+import Container from "../shared/Container.astro";
+import Paragraph from "../shared/Paragraph.astro";
+import Title from "../shared/Title.astro";
+
+---
+
+<section id="vision" class="scroll-mt-40">
+	<Container className="flex flex-col midmd:flex-row gap-10 lg:gap-12">
+		<div class="flex-1 flex midmd:w-7/12 lg:w-1/2 flex-col">
+			<Title>
+				Visión
+			</Title>
+			<Paragraph className="mt-2 font-semibold">
+				Liderar el Mercado con Eficiencia y Diferenciación
+			</Paragraph>
+			<Paragraph className="mt-8">
+				En <span class="text-transparent bg-clip-text bg-gradient-to-br from-sky-600 from-20% via-primary via-30% to-cyan-400">
+					DITEC
+				</span>, nuestro principal objetivo es consolidarnos como referentes indiscutibles en el ámbito de la distribución de insumos hospitalarios. Nos esforzamos continuamente por superar las expectativas del mercado, destacándonos por nuestra dedicación a proporcionar soluciones integrales y de alta calidad a nuestros clientes. Nos guiamos por valores fundamentales que incluyen la transparencia, la responsabilidad y la innovación, asegurando así que cada interacción con nosotros sea una experiencia gratificante y satisfactoria.
+			</Paragraph>
+			<Paragraph className="mt-8">
+				Nuestra visión va más allá de simplemente satisfacer las demandas del mercado; buscamos ser pioneros en la transformación del sector mediante prácticas comerciales éticas y sostenibles. Desde la atención al cliente hasta la gestión de la cadena de suministro, cada aspecto de nuestro negocio está diseñado para optimizar la experiencia del cliente y garantizar la entrega oportuna y precisa de los insumos necesarios. Confía en <span class="text-transparent bg-clip-text bg-gradient-to-br from-sky-600 from-20% via-primary via-30% to-cyan-400">
+					DITEC
+				</span> para recibir un servicio excepcional respaldado por nuestro compromiso inquebrantable con la excelencia y la mejora continua. Estamos aquí para ser tu socio de confianza en el suministro de insumos médicos, material quirúrgico y mucho más, impulsando juntos el avance y el bienestar en el ámbito de la salud.
+			</Paragraph>
+		</div>
+
+		<div class="max-w-md mx-auto midmd:max-w-none lg:mx-0  lg:pr-10 xl:pr-2 flex-1 flex w-11/12 midmd:w-5/12 lg:w-1/2 midmd:h-auto">
+			<div class="w-full h-80 sm:h-96 midmd:h-full relative">
+				<div class="absolute rotate-45 -left-5 md:-left-10 lg:-left-20 xl:-left-24 p-1 top-1/2 w-16 h-16 bg-gradient-to-br from-primary to-orange-400 blur-3xl opacity-50"></div>
+				<div class="absolute  p-1 -top-4 md:-top-10 right-0 w-20 h-20 bg-gradient-to-br from-primary to-orange-400 rounded-full blur-3xl opacity-60"></div>
+
+				<span class="absolute w-full aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-tr from-sky-600 to-cyan-400 opacity-40 blur-2xl left-0 bottom-0"></span>
+				<img src={"/images/dev-with-c.webp"} alt="Visión"
+					 width="1240" height="1385"
+					 class=" w-auto left-1/2 -translate-x-1/2 absolute bottom-0 max-h-full" />
+			</div>
+		</div>
+	</Container>
+</section>

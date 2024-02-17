@@ -1,0 +1,54 @@
+---
+import Button from "../shared/Button.astro";
+import Container from "../shared/Container.astro";
+import Paragraph from "../shared/Paragraph.astro";
+import BtnLink from "../shared/BtnLink.astro";
+---
+
+<section  id="cta" class="pb-20 scroll-mt-40">
+	<Container>
+		<div class="w-full relative py-8 md:py-10 px-6 md:px-8 rounded-2xl bg-gradient-to-tr from-gray-100 to-gray-200 dark:from-gray-900">
+			<div class="absolute right-0 top-0 h-full w-full flex justify-end">
+				<div class="w-28 h-28 overflow-auto flex rounded-xl relative blur-2xl">
+					<span class="absolute w-16 h-16 -top-1 -right-1 bg-green-500 rounded-md rotate-45"></span>
+					<span class="absolute w-16 h-16 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"></span>
+					<span class="absolute w-16 h-16 -bottom-1 -left-1 bg-primary rounded-md rotate-45"></span>
+				</div>
+			</div>
+
+			<div class="absolute left-0 bottom-0 h-full w-full flex items-end">
+				<div class="w-28 h-28 overflow-auto flex rounded-xl relative blur-2xl">
+					<span class="absolute w-16 h-16 -top-1 -right-1 bg-green-500 rounded-md rotate-45"></span>
+					<span class="absolute w-16 h-16 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"></span>
+					<span class="absolute w-16 h-16 -bottom-1 -left-1 bg-primary rounded-md rotate-45"></span>
+				</div>
+			</div>
+
+			<div class="mx-auto text-center max-w-xl md:max-w-2xl relative">
+				<h1 class="text-3xl/tight sm:text-4xl/tight md:text-5xl/tight font-bold text-heading-1">
+					¿Listo para un Suministro Confiable? Contáctanos Hoy.
+				</h1>
+
+				<Paragraph className="pt-10">
+					¡Estamos aquí para ayudarte!
+				</Paragraph>
+
+				<Paragraph className="pt-10">
+					Comunícate con <span class="text-transparent bg-clip-text bg-gradient-to-br from-sky-600 from-20% via-primary via-30% to-cyan-400">
+					DITEC
+				</span> para obtener atención inmediata en ventas y distribución de material de curación, medicamentos, equipo médico y más.
+				</Paragraph>
+
+				<Paragraph className="pt-10">
+					Llámanos al <a href="tel:552359-1286" target="_blank" class="transition-all hover:text-sky-600 font-semibold">552359-1286</a>
+					<br> o envía un correo electrónico a <a href="mailto:ditecdistribuidora7@gmail.com" target="_blank" class="transition-all hover:text-sky-600 font-semibold">ditecdistribuidora7@gmail.com</a>.
+					<br> Visítanos en <a href="https://maps.app.goo.gl/tVSoqnDefZzsqo8B9" target="_blank" class="transition-all hover:text-sky-600 font-semibold">Ermita Iztapalapa 1020 int. 43, San Lucas. c.p. 09000</a>.
+				</Paragraph>
+
+				<div class="mx-auto max-w-md sm:max-w-xl pt-10">
+					<BtnLink text="Whatsapp" href="https://wa.me/525523591286?text='Hola quiero información sobre los insumos'" className="flex justify-center mx-auto" variant="secondary" target="_blank"/>
+				</div>
+			</div>
+		</div>
+	</Container>
+</section>
