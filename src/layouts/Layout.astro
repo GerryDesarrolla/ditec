@@ -18,13 +18,14 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content="En DITEC, nos comprometemos a ofrecerte insumos hospitalarios de calidad, atención inmediata y entregas rápidas. Con un equipo experimentado, garantizamos tu bienestar y seguridad. Contáctanos hoy para obtener material de curación, medicamentos y equipo médico confiable.">
 		<title>DITEC Solutions | {title}</title>
+		<link rel="sitemap" href="/sitemap-index.xml" />
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 	</head>
 
 	<body class="overflow-hidden overflow-y-auto bg-body flex flex-col min-h-svh">
-		<!--<Navbar />
+		<Navbar />
 		<slot />
-		<Footer />-->
+		<Footer />
 	</body>
 
 	<script>
