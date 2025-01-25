@@ -5,6 +5,6 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://ditecs.solutions',
+  site: 'https://disaksolutions.com',
   integrations: [tailwind(), robotsTxt(), sitemap()]
 });
